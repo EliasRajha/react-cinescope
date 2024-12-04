@@ -10,7 +10,7 @@ This is a simple React application created using [React](https://reactjs.org/) a
 
 ## Demo
 
-You can view the live demo of the app here: [Live Demo] (  )
+You can view the live demo of the app here: [Live Demo] https://react-cinescope.netlify.app/
 
 ## Getting Started
 

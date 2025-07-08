@@ -1,0 +1,10 @@
+/* Container for the list of movie cards */
+.movie-list {
+  display: grid;
+
+  /* Automatically fill available space with cards that are at least 200px wide */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  gap: 10px;              /* Space between cards */
+  padding: 20px;          /* Space around the grid */
+}

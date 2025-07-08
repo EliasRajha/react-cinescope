@@ -1,0 +1,45 @@
+/* --- Header Styling --- */
+header {
+  background-color: var(--header-bg-color);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Navigation Links --- */
+nav a {
+  color: var(--link-color);
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--link-hover-color);
+}
+
+/* --- Footer Styling --- */
+footer {
+  background-color: var(--footer-bg-color);
+  padding: 10px;
+  text-align: center;
+  color: var(--text-color);
+  margin-top: auto;
+}
+
+/* --- Genre Filter (shared on homepage or elsewhere) --- */
+.genre-filter {
+  margin: 20px;
+  font-size: 16px;
+}
+
+.genre-filter select {
+  padding: 8px;
+  font-size: 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,81 @@
+/* Container for each movie card */
+.movie-card {
+  position: relative;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Movie poster image */
+.movie-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Image hover zoom effect */
+.movie-image:hover {
+  transform: scale(1.05);
+}
+
+/* Movie title styling */
+.movie-title {
+  font-size: 1rem;
+  margin-top: 8px;
+  color: var(--text-color);
+}
+
+/* Like button (heart) styling */
+.heart-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--heart-color);
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* When liked, force visible and change color */
+.heart-button.liked {
+  color: red;
+  opacity: 1;
+}
+
+/* Reveal the heart on hover */
+.movie-card:hover .heart-button {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Remove link styling */
+.movie-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Optional: add subtle shadow for depth */
+.movie-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive tweak */
+@media (max-width: 400px) {
+  .movie-card {
+    width: 150px;
+  }
+
+  .movie-title {
+    font-size: 0.9rem;
+  }
+
+  .heart-button {
+    font-size: 1.2rem;
+  }
+}

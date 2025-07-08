@@ -1,0 +1,70 @@
+/* ===== Theme Variables ===== */
+:root {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --header-bg-color: #1f1f1f;
+  --link-color: #ffffff;
+  --link-hover-color: #007bff;
+  --button-bg-color: #007bff;
+  --button-hover-bg-color: #0056b3;
+  --card-bg-color: #333333;
+  --heart-color: #ffffff;
+  --footer-bg-color: #1f1f1f;
+}
+
+/* ===== Light Theme Overrides ===== */
+[data-theme='light'] {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --header-bg-color: #f8f9fa;
+  --link-color: #000000;
+  --link-hover-color: #0056b3;
+  --button-bg-color: #007bff;
+  --button-hover-bg-color: #0056b3;
+  --card-bg-color: #f8f9fa;
+  --heart-color: #ffffff;
+  --footer-bg-color: #f8f9fa;
+}
+
+/* ===== Global Reset & Base Styling ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-color: var(--link-hover-color) var(--background-color); /* Firefox */
+  scrollbar-width: thin;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Main app container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ===== Scrollbar Styling (WebKit Browsers) ===== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--link-hover-color);
+  border-radius: 10px;
+  border: 2px solid var(--background-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--button-hover-bg-color);
+}

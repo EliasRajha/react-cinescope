@@ -1,0 +1,13 @@
+/* === Base styles === */
+@import './base.css';
+@import './layout.css';
+
+/* === Component styles === */
+@import './components/Header.css';
+@import './components/SearchBar.css';
+@import './components/MovieCard.css';
+@import './components/MovieDetailPage.css';
+@import './components/FavoritesPage.css';
+@import './components/NotFoundPage.css';
+@import './components/Loader.css';
+@import './components/MovieList.css';

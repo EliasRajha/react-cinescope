@@ -1,0 +1,32 @@
+/* === 404 Page Container === */
+.not-found {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-color);
+}
+
+/* Title styling */
+.not-found h1 {
+  font-size: 2.5rem;
+  color: crimson;
+  margin-bottom: 1rem;
+}
+
+/* Message text */
+.not-found p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Back to Home link */
+.not-found a,
+.home-link {
+  color: var(--link-color);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.not-found a:hover,
+.home-link:hover {
+  color: var(--link-hover-color);
+}

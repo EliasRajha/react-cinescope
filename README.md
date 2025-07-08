@@ -1,30 +1,55 @@
-# My React App
+# 🎬 CineScope
 
-This is a simple React application created using [React](https://reactjs.org/) and built for production.
+**CineScope** is a sleek movie explorer app built with **React**, powered by the [TMDb API](https://www.themoviedb.org/). Users can search, view details, and save their favorite titles — all with a Netflix-inspired design.
 
-## Features
+---
 
-- React for the frontend
-- Responsive and mobile-friendly UI
-- Can be easily deployed to Netlify
+### 🎥 Demo Preview
 
-## Demo
+![CineScope Demo](./screenshots/cinescope-demo.gif)
 
-You can view the live demo of the app here: [Live Demo] https://react-cinescope.netlify.app/
+---
 
-## Getting Started
+## 🚀 Live Demo
 
-To get a local copy up and running, follow these simple steps.
+👉 [Visit CineScope on Netlify](https://cinescope-eli.netlify.app/)
 
-### Prerequisites
+---
 
-Make sure you have the following installed on your machine:
+## ✨ Features
 
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
+- 🔍 Search for movies and TV shows via TMDb API
+- 🎬 View detailed movie pages (overview, release date, cast, images)
+- 📁 Filter movies by genre
+- ❤️ Save/remove favorites (persisted with `localStorage`)
+- 🌙 Light/Dark mode toggle
+- 🧭 Multi-page app using React Router
+- ⚛️ Built with functional components and custom hooks
+- 📱 Fully responsive UI (desktop & mobile)
 
-### Installation
+---
 
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/EliasRajha/REACT-Project.git
+## 🧰 Tech Stack
+
+- **React 18**
+- **React Router v6+**
+- **Axios**
+- **Vite**
+- **Context API**
+- **TMDb API**
+
+---
+
+## 🛠 Getting Started
+
+### 📦 Prerequisites
+
+- Node.js & npm installed
+
+### 🔧 Installation
+
+```bash
+git clone https://github.com/EliasRajha/react-cinescope.git
+cd REACT-CineScope
+npm install
+npm run dev
